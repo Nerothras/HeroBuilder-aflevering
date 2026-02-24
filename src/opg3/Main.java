@@ -56,6 +56,7 @@ public class Main {
         System.out.println("****************");
         addGold(100);
         removeGold(50);
+        System.out.println("current gold left: " + gold);
         System.out.println("****************");
         System.out.println();
 
@@ -164,7 +165,7 @@ public class Main {
         maxHealth += 20;
         currentHp = maxHealth;
 
-        System.out.println("Congratulations! " + name + " leveled up!");
+        System.out.println("1000/1000 xp reached! " + name + " leveled up!");
         System.out.println("New level: " + level);
         System.out.println("Max Health increased to: " + maxHealth);
         System.out.println("HP restored to: " + currentHp);

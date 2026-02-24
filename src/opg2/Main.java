@@ -39,7 +39,7 @@ public class Main {
 
 
         System.out.println("Nerothras takes 100 damage!");
-        currentHp -= 10;
+        currentHp -= 100;
         System.out.println("HP: " + currentHp);
 
 
