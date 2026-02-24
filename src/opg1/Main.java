@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Main {
 
     //Iteration 1
-public static void main(){
+    void main(){
 
     String name = "Nerothras";
     int maxHealth = 100;
@@ -17,7 +17,7 @@ public static void main(){
     String classType = "Warrior";
     String[] inventoryItems = {"Greatsword", "Health potion", "Cooked boar meat", "Water","Hearthstone"};
 
-
+    System.out.println("Character name: " + name);
     System.out.println("Max hp: " + maxHealth);
     System.out.println("HP: " + currentHp);
     System.out.println("Your level: " + level);
