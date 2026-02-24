@@ -15,7 +15,7 @@ public class Main {
     int gold = 500;
     boolean isAlive = true;
     String classType = "Warrior";
-    String[] inventoryItems = {"Greatsword", "Health potion", "Cooked boar meat", "Water","Hearthstone"};
+    String[] inventoryItems = {"Greatsword", "Hp potion", "Cooked boar meat", "Water","Hearthstone"};
 
     System.out.println("Character name: " + name);
     System.out.println("Max hp: " + maxHealth);
