@@ -32,7 +32,7 @@ public class Main {
         System.out.println("------------------");
         System.out.println("Nerothras takes 40 damage!");
 
-        int damage = 4;
+        int damage = 40;
         currentHp -= damage;
         System.out.println("HP: " + currentHp);
         int Hp = currentHp;
