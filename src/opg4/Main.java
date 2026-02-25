@@ -44,7 +44,7 @@ public class Main {
         hero.heal(hero.currentHp);
         hero.loot(enemy);
         System.out.println();
-        System.out.println("---------------------------");
+        System.out.println("--------------------------");
         hero.addXp(1000);
         hero.levelUp();
         System.out.println("Mission complete");
