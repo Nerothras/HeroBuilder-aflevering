@@ -1,21 +1,23 @@
-package opg1;
+package opg4;
 
 import java.util.ArrayList;
 
-class Character {
+public class Character {
 
     String name;
     String heroClass;
+    String race;
     int level;
     int maxHealth;
     int currentHealth;
     int gold;
 
-    ArrayList<Character> inventory; // Inventory indeholder Item-objekter
+    ArrayList<Character> inventory = new ArrayList<Character>();
 
-    // Constructor
-    public Character(String name, String heroClass, int level, int maxHealth, int currentHealth, int gold) {
+
+    public Character(String name, String heroClass, String race, int level, int maxHealth, int currentHealth, int gold) {
         this.name = name;
+        this.race = race;
         this.heroClass = heroClass;
         this.level = level;
         this.maxHealth = maxHealth;
@@ -24,16 +26,19 @@ class Character {
         this.inventory = new ArrayList<>();
     }
 
-    // Tilføj et item
-    public void addItem(Character item) {
+    public void addItemtoInventory(Character item){
         inventory.add(item);
     }
 
-    // Vis inventory
     public void showInventory() {
         System.out.println("Inventory for " + name + ":");
-        for (Character item : inventory) {
-            System.out.println("- " + item);
+        for (Character items : inventory) {
+            System.out.println("- " + items);
         }
     }
+
 }
+
+
+
+
